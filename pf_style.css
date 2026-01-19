@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: white;
+}
+
+section {
+  background: white;
+  margin: 15px;
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.photo-box {
+  width: 180px;
+  height: 220px;
+  background: #ccc;
+}
+
+.photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.skills,
+.details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.box {
+  background: #e6e6e6;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+}
